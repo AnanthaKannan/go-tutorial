@@ -19,6 +19,12 @@ go env -w GO111MODULE=auto
 The go mod init command creates a go.mod file to track your code's dependencies
 go mod init example.com/hello
 
+### find in the local path
+go mod edit -replace example.com/greetings=../greetings
+
+### go mod tidy
+    From the command prompt in the hello directory, run the go mod tidy command to synchronize the example.com/hello module's dependencies, adding those required by the code, but not yet tracked in the module.
+
 ### Notes
  * Redeclare is not allowed but shadowing is allowed
  * If you are variable start with small letter then its allowed only in current package
