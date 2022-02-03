@@ -17,7 +17,7 @@ go env -w GO111MODULE=auto
 
 ### init the go tracking files
 The go mod init command creates a go.mod file to track your code's dependencies
-go mod init example.com/hello
+go mod init example.com/mongoConnect
 
 ### find in the local path
 go mod edit -replace example.com/greetings=../greetings
