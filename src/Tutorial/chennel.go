@@ -19,7 +19,7 @@ func main() {
 	R1 := make(chan string)
 	R2 := make(chan string)
 
-	go portal1(R1)
+	// go portal1(R1)
 	go portal2(R2)
 
 	select {
