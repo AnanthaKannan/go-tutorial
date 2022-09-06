@@ -23,3 +23,7 @@ func main() {
 	student1.rollNo = 82
 	fmt.Println(student1, student1.name)
 }
+
+func anotherFn() {
+	println("eeeeeeeeeeeeeeeee")
+}

@@ -7,12 +7,22 @@ func main() {
 	fmt.Println(myInt.Increment())
 	fmt.Println(myInt.Subtract())
 	// fmt.Println(myInt.Add())
+	fmt.Println()
 }
 
 type Incrementer interface {
 	Increment() int
 	Subtract() int
 	Add() int
+}
+
+type TestInterface interface {
+	TestA() string
+	TestB() int
+}
+
+func TestA() int {
+	return 100
 }
 
 type IntCounter struct {
