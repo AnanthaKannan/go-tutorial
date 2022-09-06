@@ -37,6 +37,22 @@ go mod tidy
 ```
 From the command prompt in the hello directory, run the go mod tidy command to synchronize the example.com/hello module's dependencies, adding those required by the code, but not yet tracked in the module.
 
+### Build
+```
+go build filename.go
+```
+It is just build the file and generate the build file, if you are run the file, it will get execute. If you want to build the file, that that should be `package main`
+
+### Format
+```
+go format
+```
+used to format all the file
+### Test
+```
+go test
+```
+used to execute the test file
 ### Notes
  * Redeclare is not allowed but shadowing is allowed
  * If you are variable start with small letter then its allowed only in current package
