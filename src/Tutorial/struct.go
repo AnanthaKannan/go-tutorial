@@ -3,6 +3,7 @@ package main
 import "fmt"
 
 // struck is the collection of data type
+// we can say another way this as a object
 
 // student struct
 type Student struct {
