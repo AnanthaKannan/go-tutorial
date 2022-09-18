@@ -3,14 +3,14 @@ package main
 import "fmt"
 
 func main() {
-	var myInt Incrementer = &IntCounter{no: 10}
+	var myInt Incrementor = &IntCounter{no: 10}
 	fmt.Println(myInt.Increment())
 	fmt.Println(myInt.Subtract())
 	// fmt.Println(myInt.Add())
 	fmt.Println()
 }
 
-type Incrementer interface {
+type Incrementor interface {
 	Increment() int
 	Subtract() int
 	Add() int
