@@ -13,6 +13,11 @@ panic is just like throw error
 
 All the package are htere [URL](https://pkg.go.dev/search?q=mux)  
 
+To generate mod file
+```
+go mod init example/API
+```
+
 To Instal the package use:
 ```
 go get github.com/gorilla/mux
